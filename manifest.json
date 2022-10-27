@@ -1,0 +1,21 @@
+{
+  "name": "FE Tool",
+  "version": "1.0.0",
+  "description": "none",
+  "manifest_version": 3,
+  "author": "Tan",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "FE Tool"
+  },
+
+  "content_scripts": [
+    {
+      "matches": [
+        "https://learn.viblo.asia/en/courses/fundamental-information-technology-engineer-examination-fe-VolejRejNm/exams/15"
+      ],
+      "js": ["js/test.js"],
+      "css": ["styles/styles.css"]
+    }
+  ]
+}
